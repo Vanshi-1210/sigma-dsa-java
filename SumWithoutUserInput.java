@@ -1,3 +1,5 @@
+// Program to add two numbers using predefined values without taking user input
+
 public class SumWithoutUserInput{
     public static void main(String[] args) {
         int a=23;
