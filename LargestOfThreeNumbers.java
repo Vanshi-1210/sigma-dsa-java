@@ -10,9 +10,9 @@ public class LargestOfThreeNumbers {
         int b=sc.nextInt();
         System.out.print("Enter the value of c:");
         int c=sc.nextInt();
-        if(a>b && a>c){
+        if(a>=b && a>=c){
             System.out.println("a is largest");
-        }else if(b>c && b>a){
+        }else if(b>c){
             System.out.println("b is largest");
         }else{
             System.out.println("c is largest");
