@@ -1,3 +1,5 @@
+// Program to skip numbers divisible by 10 using continue in a do-while loop
+
 import java.util.*;
 public class SkipNumbersDivisibleByTenUsingContinue {
     public static void main(String[] args) {
