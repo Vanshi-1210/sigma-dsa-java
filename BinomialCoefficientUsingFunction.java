@@ -9,7 +9,7 @@ public class BinomialCoefficientUsingFunction {
         int fact_r=factorial(r);
         int fact_nmr=factorial(n-r);
 
-        int binCoeff=fact_n/(fact_r/fact_nmr);
+        int binCoeff=fact_n/(fact_r*fact_nmr);
         return binCoeff;
     }
     
