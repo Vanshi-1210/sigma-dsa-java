@@ -16,7 +16,17 @@ public class CheckPrimeNumberUsingFunction {
         }
         return isPrime;
     }
+
+
+    public static void primesInRange(int n){
+        for(int i=2;i<=n;i++){
+            if(isPrime(i)){
+                System.out.println(i);
+            }
+        }
+    }
     public static void main(String[] args) {
         System.out.println(isPrime(20));
+       primesInRange(16);
     }
 }
