@@ -1,4 +1,4 @@
-Implemented decimal to binary conversion using division by 2 and positional power calculation.
+// Implemented decimal to binary conversion using division by 2 and positional power calculation.
 
 public class DecimalToBinary {
 
