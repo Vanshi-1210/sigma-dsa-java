@@ -1,0 +1,19 @@
+// Print a right aligned half pyramid using nested loops for spaces and stars.
+
+public class RightAlignedHalfPyramid {
+    public static void main(String[] args) {
+        int n=4;
+        for(int i=1;i<=n;i++){
+
+            // loop for printing spaces
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            // loop for printing star
+            for(int j=1;j<=i;j++){
+                System.out.print('*');
+            }
+            System.out.println();
+        }
+    }
+}
