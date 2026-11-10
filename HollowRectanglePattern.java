@@ -1,3 +1,5 @@
+// Print a hollow rectangle pattern using nested loops and conditional statements.
+
 public class HollowRectanglePattern {
     public static void main(String[] args) {
         int n=4;
