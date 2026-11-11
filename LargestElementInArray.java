@@ -1,3 +1,4 @@
+// Program to find the largest element in an array using a function and Integer.MIN_VALUE.
 
 public class LargestElementInArray{
     public static int getLargest(int numbers[]){
