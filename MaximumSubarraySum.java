@@ -24,6 +24,6 @@ public class MaximumSubarraySum{
     }
     public static void main(String[] args) {
         int numbers[]={1,2,3,4,6,7};
-        maxSubArraySum(numbers);
+        maxSubarraySum(numbers);
     }
 }
